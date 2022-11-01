@@ -4,9 +4,9 @@
 
 KIC 8462852 in the star constellation called Cygnus, or shortly Tabby’s Star since it was discovered by Tabetha Boyajian of Yale, is a star that has been baffling scientists ever since its discovery. This star that is 1480 light years away from our Earth was observed to change its flux in an unexpected way. Occasionally, it gets much dimmer than usual, even to the point of getting 22% dimmer at a relatively short timescale. Several theories were proposed to explain this inconsistent behavior of the star, however, none turned out to predict its behavior accurately. Some people even think that the aliens are extracting energy from it, causing it to fluctuate in brightness unexpectedly (Strickland, 2018).
 
-## ımage
-Image 1 
-Star KIC 8462852 in infrared (2MASS survey) and ultraviolet (GALEX)
+![Star KIC 8462852 in infrared (2MASS survey) and ultraviolet (GALEX)](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/KIC_8462852_in_IR_and_UV.png/640px-KIC_8462852_in_IR_and_UV.png)
+
+*Star KIC 8462852 in infrared (2MASS survey) and ultraviolet (GALEX)*
 
 In this project, I used a data file from NASA to simulate the change of Tabby’s Star’s flux. I imported random, time and GraphicsPlus to be able to use their modules. To make my simulation look more aesthetically pleasing, I created a Celestial object class, and Shooting Star and Galaxy classes that inherited from it. These objects are displayed and moved in the background of the simulation. To create my Tabby’s Star simulation, I used various lists, functions and conditionals to analyze my data and display different sizes of the Tabby’s Star image with the appropriate time difference between each changing image.
 
@@ -24,7 +24,10 @@ Additionally, I had two other functions in this project calculating the mean flu
 
 ## Results
 
-## VIDEO
+
+https://user-images.githubusercontent.com/113384943/199319162-4241a11a-fb84-4c33-9630-8b7ae5a035c2.mov
+
+
 
 When we run the tabbysimulation.py, it iterates over Tabby’s flux and time lists and displays the image in the appropriate size category for an amount of time depending how long it took for the second flux data to be taken between consecutive flux data entries. This created a Tabby’s Star simulation using real flux and time ratios. The flux value for every data entry and the time is displayed on the side of the window, as well as the maximum and the mean flux values. In the background of the simulation window, shooting stars are moving to random locations. 
 
